@@ -1,0 +1,18 @@
+{
+    "name": "test/hello",
+    "description": "test hello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xgf",
+            "email": "xgf@126.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "test\\hello\\":"src/"
+        }
+    }
+}
